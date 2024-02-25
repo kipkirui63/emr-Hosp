@@ -4,13 +4,17 @@ import React, {useState} from "react";
 function Login(){
     const [ username, setUsername] = useState("");
     const [password, setPassword] = useState("");
+    const [error, setError] = useState("");
 
 
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log("Username", username);
         console.log("Password:", password);
-    }
+        // Add logic to send login request to backend
+    };
+
+
     return(
     <body className="antialiased bg-gradient-to-br from-green-100 to-white">
       <div className="container px-6 mx-auto">
