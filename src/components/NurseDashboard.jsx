@@ -2,48 +2,48 @@
 import React, { useState } from 'react';
 
 function NurseDashboard() {
-    // const [examinationFormData, setExaminationFormData] = useState({
-    //     patientName: '',
-    //     examinationDetails: '',
-    //     diagnosis: '',
-    //     treatment: ''
-    // });
+    const [examinationFormData, setExaminationFormData] = useState({
+        patientName: '',
+        examinationDetails: '',
+        diagnosis: '',
+        treatment: ''
+    });
 
-    // const handleChange = (e) => {
-    //     const { name, value } = e.target;
-    //     setExaminationFormData(prevState => ({
-    //         ...prevState,
-    //         [name]: value
-    //     }));
-    // };
+    const handleChange = (e) => {
+        const { name, value } = e.target;
+        setExaminationFormData(prevState => ({
+            ...prevState,
+            [name]: value
+        }));
+    };
 
-    // const handleSubmit = async (e) => {
-    //     e.preventDefault();
-    //     try {
-    //         // Assuming you have an API endpoint for submitting examination reports
-    //         const response = await fetch('/api/reports/examination', {
-    //             method: 'POST',
-    //             headers: {
-    //                 'Content-Type': 'application/json'
-    //             },
-    //             body: JSON.stringify(examinationFormData)
-    //         });
+    const handleSubmit = async (e) => {
+        e.preventDefault();
+        try {
+            // Assuming you have an API endpoint for submitting examination reports
+            const response = await fetch('/api/reports/examination', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(examinationFormData)
+            });
 
-    //         if (!response.ok) {
-    //             throw new Error('Failed to submit examination report');
-    //         }
+            if (!response.ok) {
+                throw new Error('Failed to submit examination report');
+            }
 
-    //         // Reset form data after successful submission
-    //         setExaminationFormData({
-    //             patientName: '',
-    //             examinationDetails: '',
-    //             diagnosis: '',
-    //             treatment: ''
-    //         });
-    //     } catch (error) {
-    //         console.error('Error submitting examination report:', error);
-    //     }
-    // };
+            // Reset form data after successful submission
+            setExaminationFormData({
+                patientName: '',
+                examinationDetails: '',
+                diagnosis: '',
+                treatment: ''
+            });
+        } catch (error) {
+            console.error('Error submitting examination report:', error);
+        }
+    };
 
     return (
         // <div>
@@ -193,7 +193,7 @@ function NurseDashboard() {
                 <h1 class=" text-3xl font-sans tracking-tight text-gray-900">
                   Enock Sang
                 </h1>
-                <p class="ml-10">Sr. Doctor</p>
+                <p class="ml-10">Nurse</p>
               </div>
     
               <div class="bg-blue-300 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
@@ -309,7 +309,27 @@ function NurseDashboard() {
                                         <tr>
                                             <td class="px-4 py-4 text-sm font-medium ">
                                                 <div>
-                                                    <h2 class="font-medium text-gray-800  ">Notifications</h2>
+                                                <form onSubmit={handleSubmit}>
+                 {/* Form fields for examination report */}
+                {/* Example: */}
+                <div>
+                    <label>Patient Name:</label>
+                    <input type="text" name="patientName" value={examinationFormData.patientName} onChange={handleChange} />
+                 </div>
+                 <div>
+                     <label>Examination Details:</label>
+                     <textarea name="examinationDetails" value={examinationFormData.examinationDetails} onChange={handleChange}></textarea>
+                 </div>
+                 <div>
+                     <label>Diagnosis:</label>
+                     <input type="text" name="diagnosis" value={examinationFormData.diagnosis} onChange={handleChange} />
+                 </div>
+                 <div>
+                     <label>Treatment:</label>
+                     <input type="text" name="treatment" value={examinationFormData.treatment} onChange={handleChange} />
+                 </div>
+                 <button type="submit">Submit Examination Report</button>
+            </form>
                                                 </div>
                                             </td>
                          
