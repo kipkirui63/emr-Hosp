@@ -123,7 +123,7 @@ function DoctorDashboard() {
 </div>
         <div class="bg-blue-300  max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
             <h1 class=" text-3xl font-sans tracking-tight text-gray-900">
-              Charlot Daniel Abbot
+              Enock Sang
             </h1>
             <p class="ml-10">Sr. Doctor</p>
           </div>
@@ -160,9 +160,9 @@ function DoctorDashboard() {
 
                             </li>
                             <li class="items-center py-3">
-                                <h1>Hir</h1>
-                                <span>Jan 19 2017</span><br/>
-                                <span class="ml-auto">10m - 15d</span>
+                                <h1>Shift</h1>
+                                <span>Jan 19 2024</span><br/>
+                                <span class="ml-auto">10:00 - 2300</span>
                             </li>
 
                             <li class=" items-center py-3">
@@ -184,10 +184,10 @@ function DoctorDashboard() {
                           <a class="rounded-sm bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-700 font-semibold shadow-md" href="#">Personal</a>
                         </li>
                         <li class="mr-1">
-                          <a class="rounded-sm bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="#">Job</a>
+                          <a class="rounded-sm bg-white inline-block border-l border-t border-r rounded-t py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="#">Notes</a>
                         </li>
                         <li class="mr-1">
-                          <a class="rounded-sm bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="#">leave</a>
+                          <a class="rounded-sm bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="#">Nurse</a>
                         </li>
                         <li class="mr-1">
                             <a class="rounded-sm bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t py-2 px-4 text-blue-500 hover:text-blue-800 font-semibold" href="#">Emergency</a>
@@ -196,22 +196,22 @@ function DoctorDashboard() {
                             <a class="rounded-sm bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t py-2 px-1 text-blue-500 hover:text-blue-800 font-semibold" href="#">Document</a>
                           </li>
                           <li class="mr-1">
-                            <a class="rounded-sm bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t py-2 px-1 text-blue-500 hover:text-blue-800 font-semibold" href="#">Notes</a>
+                            <a class="rounded-sm bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t py-2 px-1 text-blue-500 hover:text-blue-800 font-semibold" href="#">Pharmacy</a>
                           </li>
         
                           <li class="mr-1">
-                            <a class="bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t text-blue-500 hover:text-blue-800 font-semibold" href="#">Benefits</a>
+                            <a class="bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t text-blue-500 hover:text-blue-800 font-semibold" href="#">Recommendations</a>
                           </li>
         
                           <li class="mr-1">
-                            <a class="bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t text-blue-500 hover:text-blue-800 font-semibold" href="#">Training</a>
+                            <a class="bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t text-blue-500 hover:text-blue-800 font-semibold" href="#">Laboratory</a>
                           </li>
         
                           <li class="mr-1">
-                            <a class="bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t text-blue-500 hover:text-blue-800 font-semibold" href="#">performance</a>
+                            <a class="bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t text-blue-500 hover:text-blue-800 font-semibold" href="#">Referral</a>
                           </li>
                           <li class="mr-1">
-                            <a class="bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t text-blue-500 hover:text-blue-800 font-semibold" href="#">Assets</a>
+                            <a class="bg-white inline-block py-2 px-4 border-l border-t border-r rounded-t text-blue-500 hover:text-blue-800 font-semibold" href="#">Leave</a>
                           </li>
                       </ul>
                       </div>
@@ -241,7 +241,7 @@ function DoctorDashboard() {
                                     <tr>
                                         <td class="px-4 py-4 text-sm font-medium ">
                                             <div>
-                                                <h2 class="font-medium text-gray-800  ">Resume and Applications</h2>
+                                                <h2 class="font-medium text-gray-800  ">Notifications</h2>
                                             </div>
                                         </td>
                      
