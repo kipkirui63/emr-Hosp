@@ -125,7 +125,7 @@ function DoctorDashboard() {
             <h1 class=" text-3xl font-sans tracking-tight text-gray-900">
               Enock Sang
             </h1>
-            <p class="ml-10">Sr. Doctor</p>
+            <p class="ml-10">Doctor</p>
           </div>
 
           <div class="bg-blue-300 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
