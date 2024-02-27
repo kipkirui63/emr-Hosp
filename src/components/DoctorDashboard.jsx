@@ -19,26 +19,7 @@ function DoctorDashboard() {
                     aria-current="page"
                     >Home</a
                   >
-                  <a
-                    href="#"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                    >My info</a
-                  >
-                  <a
-                    href="#"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                    >Employees</a
-                  >
-                  <a
-                    href="#"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                    >Pricing</a
-                  >
-                  <a
-                    href="#"
-                    class="text-gray-300 hover:bg-gray-700 hover:text-white rounded-md px-3 py-2 text-sm font-medium"
-                    >Blogs</a
-                  >
+                  
                 </div>
               </div>
             </div>
@@ -94,26 +75,7 @@ function DoctorDashboard() {
               aria-current="page"
               >Home</a
             >
-            <a
-              href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-              >My info</a
-            >
-            <a
-              href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-              >Employees</a
-            >
-            <a
-              href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-              >Pricing</a
-            >
-            <a
-              href="#"
-              class="text-gray-300 hover:bg-gray-700 hover:text-white block rounded-md px-3 py-2 text-base font-medium"
-              >Blogs</a
-            >
+            
           </div>
           <div class="border-t border-gray-700 pb-3 pt-4">
             <div class="flex items-center px-5">
@@ -163,7 +125,7 @@ function DoctorDashboard() {
             <h1 class=" text-3xl font-sans tracking-tight text-gray-900">
               Charlot Daniel Abbot
             </h1>
-            <p class="ml-10">Sr. HR Administrator</p>
+            <p class="ml-10">Sr. Doctor</p>
           </div>
 
           <div class="bg-blue-300 mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
@@ -193,12 +155,12 @@ function DoctorDashboard() {
                         
                         <ul class="-mt-3 text-sm font-semibold text-gray-500 hover:text-gray-700 py-2 px-3 mt-3 divide-y rounded bg-white ">
                             <li class="items-center py-3">
-                                <span>801-724-6600 Ext.1272</span><br/>
-                                <span class="ml-auto">415-555-8965</span>
+                                <span>+254 792172462</span><br/>
+                                <span class="ml-auto">stang@gmail.com</span>
 
                             </li>
                             <li class="items-center py-3">
-                                <h1>Hire date</h1>
+                                <h1>Hir</h1>
                                 <span>Jan 19 2017</span><br/>
                                 <span class="ml-auto">10m - 15d</span>
                             </li>
