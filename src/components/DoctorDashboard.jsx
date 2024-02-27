@@ -1,27 +1,18 @@
 import React from "react";
 
-
-function DoctorDashboard(){
-
-
+function DoctorDashboard() {
     return (
-    <div> 
-    <header class="bg-white ">
-        <div class="mx-auto max-w-7xl px-4 py-6 sm:px-6 lg:px-8">
-          <h1 class="text-3xl font-bold tracking-tight text-gray-900">
-         SafariHR
-          </h1>
-        </div>
-      </header>
+        <div>
+ 
+    
     <div class="min-h-full">
       <nav class="bg-gray-800">
-        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8"/>
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <div class="flex h-16 items-center justify-between">
             <div class="flex items-center">
      
               <div class="hidden md:block">
                 <div class="ml-10 flex items-baseline space-x-4">
-                  {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
                   <a
                     href="#"
                     class="bg-gray-900 text-white rounded-md px-3 py-2 text-sm font-medium"
@@ -55,7 +46,6 @@ function DoctorDashboard(){
               <div class="ml-4 flex items-center md:ml-6">
 
 
-                {/* <!-- Profile dropdown --> */}
                 <div class="relative ml-3">
 
                     <div class="md:block lg:block sm:hidden max-w-md mx-auto">
@@ -93,11 +83,11 @@ function DoctorDashboard(){
             </div>
           </div>
         </div>
+        </div>
+        
 
-        {/* <!-- Mobile menu, show/hide based on menu state. --> */}
         <div class="md:hidden" id="mobile-menu">
           <div class="space-y-1 px-2 pb-3 pt-2 sm:px-3">
-            {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
             <a
               href="#"
               class="bg-gray-900 text-white block rounded-md px-3 py-2 text-base font-medium"
@@ -163,6 +153,7 @@ function DoctorDashboard(){
           </div>
         </div>
       </nav>
+      
 <div class="bg-blue-300 flex justify-between">
 <div class=" max-w-7xl px-4 py-6 bg-blue-300 sm:px-6 lg:px-8 hidden lg:block md:block">
                                       
@@ -179,12 +170,9 @@ function DoctorDashboard(){
 
             <div class="flex justify-between">
           
-              {/* <!-- Content --> */}
               <div class="flex-1">
-                {/* <!-- Rest of content --> */}
               </div>
           
-              {/* <!-- Buttons --> */}
               <div class="flex space-x-4 hidden lg:block md:block">
                 <button class="bg-blue-500 hover:bg-blue-600 text-white px-2 py-1 rounded-md">Request a Change</button>  
                 <button class="bg-gray-500 hover:bg-gray-600 text-white px-2 py-1 rounded-md">Settings</button>
@@ -198,7 +186,6 @@ function DoctorDashboard(){
       <main>
         <div class=" max-w-7xl py-0 ">
             <div class="md:flex no-wrap md:-mx-2  ">
-                {/* <!-- Left Side --> */}
 
                 <div class=" w-full md:w-3/12 ">
 
@@ -227,10 +214,8 @@ function DoctorDashboard(){
                         </ul>
                     </div>
                 </div>
-                {/* <!-- Right Side --> */}
                 <div class="w-full mx-2   md:block lg:block md:-mt-24 sm:mt-0">
-                    {/* <!-- Profile tab -->
-                    <!-- About Section --> */}
+                   
                     <div class="hidden md:block lg:block">
                     <ul class="flex bg-white ">
                         <li class=" mr-1">
@@ -282,9 +267,7 @@ function DoctorDashboard(){
                           <span class="tracking-wide px-2 bg-blue-500 text-white rounded-md shadow-xl">Upload</span>
                           <span class="tracking-wide px-2">Files</span>
                           </div>
-                        {/* <!-- the document logo and stuff --> */}
                     </div>
-                    {/* <!-- End of about section --> */}
         
                     <div class="my-1 "></div>
         
@@ -334,13 +317,13 @@ function DoctorDashboard(){
                             </table>
                         </div>
                     </div>
-                    {/* <!-- End of profile tab --> */}
                 </div>
             </div>
         </div>
       </main>
     </div>
-    </div>
+  
+  </div>
 
         
     );
